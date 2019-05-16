@@ -1,5 +1,5 @@
 
-    <h3>New Memo</h3>
+    <h3>Create Memo</h3>
     <%= form_tag("/create") do %>
         <div class="form-group">
             <%= label_tag "form-title", "Title" %>
@@ -7,7 +7,7 @@
         </div>
         <div class="form-group">
             <%= label_tag "form-content", "Content" %>
-            <%= text_field :memos, :body, id:"form-content", class:"form-control", placeholder:"content" %>
+            <%= text_area :memos, :body, id:"form-content", class:"form-control", placeholder:"content" %>
         </div>
         <%= submit_tag "Create", class:"btn btn-primary" %>
     <% end %>
