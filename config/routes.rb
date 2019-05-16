@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   delete "/memos/:id" => "memos#destroy"
   get "/memos/:id/edit" => "memos#edit"
   patch "/memos/:id" => "memos#update"
+  get "/categories/:id" => "categories#show"
 end
