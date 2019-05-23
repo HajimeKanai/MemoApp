@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Railsでメモアプリを作りました。
 
-Things you may want to cover:
+* トップページからメモの投稿が自由にできる
 
-* Ruby version
+* トップページからメモの一覧が見れる
 
-* System dependencies
+* メモのタイトル、内容がそれぞれ入力でき、カテゴリーが選択できる
 
-* Configuration
+* メモの編集、削除ができる
 
-* Database creation
+* カテゴリー別にメモを表示できる
 
-* Database initialization
+今後追加したい機能
+* ログイン機能
 
-* How to run the test suite
+* 投稿者プロフィール画像登録機能
 
-* Services (job queues, cache servers, search engines, etc.)
+* SNSシェア機能
 
-* Deployment instructions
-
-* ...
+* NGワード追加機能
